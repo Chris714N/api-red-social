@@ -1,0 +1,25 @@
+{
+  "name": "curso-mean-social",
+  "version": "1.0.0",
+  "description": "Backend para el proyecto del curso Desarrollar una red social con Angular y Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor index.js"
+  },
+  "author": "Christian",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.3",
+    "express-limiter": "^1.6.1",
+    "helmet": "^3.12.1",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.2",
+    "mongoose-pagination": "^1.0.0",
+    "socket.io": "^2.1.1"
+  }
+}
